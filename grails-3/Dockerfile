@@ -12,7 +12,7 @@ RUN wget https://github.com/grails/grails-core/releases/download/v$GRAILS_VERSIO
     rm -rf grails-$GRAILS_VERSION.zip && \
     ln -s grails-$GRAILS_VERSION grails
 
-# Setup Grails path.
+# Setup Grails path. 
 ENV GRAILS_HOME /usr/lib/jvm/grails
 ENV PATH $GRAILS_HOME/bin:$PATH
 
