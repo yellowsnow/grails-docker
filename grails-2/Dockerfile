@@ -3,7 +3,7 @@ MAINTAINER Manuel Ortiz Bey <ortiz.manuel@mozartanalytics.com>
 
 # Set customizable env vars defaults.
 # Set Grails version (max version for this Docker image is: 2.5.3).
-ENV GRAILS_VERSION 2.5.3
+ENV GRAILS_VERSION 2.5.5
 
 # Install Grails
 WORKDIR /usr/lib/jvm
